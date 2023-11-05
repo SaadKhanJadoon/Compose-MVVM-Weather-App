@@ -1,6 +1,7 @@
 package com.example.compose_mvvm_weather_app.networking
 
 import com.example.compose_mvvm_weather_app.model.WeatherApiResponse
+import com.example.compose_mvvm_weather_app.utils.Constant
 import retrofit2.http.GET
 import retrofit2.http.Query
 
@@ -10,7 +11,7 @@ interface NetworkingService {
     suspend fun fetchWeather(
         @Query("lat") lat: String,
         @Query("lon") lon: String,
-        @Query("appid") appid: String = "4596df18d7f3e4389a40371e52e0ef9c"
+        @Query("appid") appid: String = Constant.APP_ID
     ): WeatherApiResponse
 
 }
