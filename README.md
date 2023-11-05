@@ -2,9 +2,7 @@
 
 A sample app using Jetpack Compose UI and MVVM architecture. 
 
-The app is created to showcase the usage of a standard MVVM architecture approach with jetpack compose as UI, and uses the [OpenWeather](https://openweathermap.org/) 
-
-api for fetching data.
+The app is created to showcase the usage of a standard MVVM architecture approach with jetpack compose as UI, and uses the [OpenWeather](https://openweathermap.org/) api for fetching data.
 
 
 ![weather-app](https://github.com/SaadKhanJadoon/Compose-MVVM-Weather-App/assets/61506756/88caf4de-d014-4cd6-925c-71f171d21d9d)
