@@ -18,12 +18,6 @@ The app is created to showcase the usage of a standard MVVM architecture approac
 + StateFlow
 + Sealed Class.
 
-# Benefits of using Jetpack Compose
-+ Increased Productivity.
-+ Improved User Experience.
-+ Reusable Components.
-+ Improved Performance.
-
 # Contributing
 1. Fork the Project
 2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
